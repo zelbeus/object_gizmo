@@ -1,4 +1,4 @@
-RegisterCommand('object_gizmo',function(source, args, rawCommand) --example of how the gizmo could be used /spawnobject {object model name}
+RegisterCommand('object_gizmo',function(source, args, rawCommand) --example of how the gizmo could be used /object_gizmo {object entity id}
     local object = tonumber(args[1])
     if object then 
         local playerPed = PlayerPedId()
